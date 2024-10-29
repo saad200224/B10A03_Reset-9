@@ -4,6 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/57434d4049.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <!-- header section -->
+    <header class="py-12 bg-gradient-to-b from-slate-100 to-white">
+      <nav class="max-w-7xl mx-auto flex items-center justify-evenly">
+        <!-- logo -->
+        <div class="flex items-center justify-center gap-2">
+          <div class="bg-[#ABEF5F] rounded-full">
+            <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
+          </div>
+          <div>
+            <h1 class="text-3xl font-extrabold">Rinterio</h1>
+          </div>
+        </div>
+
+        <!-- menu -->
+        <div>
+          <ul class="flex gap-7">
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- right side btn -->
+        <div class="flex items-center justify-center gap-2">
+          <div class="bg-white p-2 rounded-full text-lg">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="bg-white p-2 rounded-full text-lg">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div
+            class="bg-[#ABEF5F] rounded-3xl flex items-center justify-center gap-2 px-5 py-3"
+          >
+            <h1 class="text-xl font-extrabold text-black">Book Consult</h1>
+            <div>
+              <i
+                class="fa-solid fa-arrow-right p-2 -rotate-45 text-white bg-black rounded-full"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="">
+        <div>
+          <img src="./images/banner.png" alt="" />
+        </div>
+        <div>
+          <h1 class="text-6xl font-extrabold">
+            A barn house of this design has a striking appearance
+          </h1>
+          <p>
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <button>View Details</button>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
