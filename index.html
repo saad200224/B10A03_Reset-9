@@ -42,7 +42,7 @@
       <nav class="max-w-7xl mx-auto flex items-center justify-evenly">
         <!-- logo -->
         <div class="flex items-center justify-center gap-2">
-          <div class="bg-[#ABEF5F] rounded-full">
+          <div class="bg-lime-500 rounded-full">
             <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
           </div>
           <div>
@@ -70,7 +70,7 @@
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
           <div
-            class="bg-[#ABEF5F] rounded-3xl flex items-center justify-center gap-2 px-5 py-3"
+            class="bg-lime-500 rounded-3xl flex items-center justify-center gap-2 px-5 py-3"
           >
             <h1 class="text-xl font-extrabold text-black">Book Consult</h1>
             <div>
@@ -83,20 +83,29 @@
       </nav>
 
       <!-- hero section -->
-      <section class="">
-        <div>
-          <img src="./images/banner.png" alt="" />
+      <section
+        class="flex flex-col items-center justify-center mx-auto lg:w-5/6"
+      >
+        <div class="my-4">
+          <img class="w-3/4 mx-auto" src="./images/banner.png" alt="" />
         </div>
-        <div>
-          <h1 class="text-6xl font-extrabold">
+        <div class="text-center">
+          <h1 class="text-6xl font-extrabold my-6">
             A barn house of this design has a striking appearance
           </h1>
-          <p>
+          <p class="w-5/6 mx-auto">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
-          <button>View Details</button>
+          <button
+            class="flex items-center justify-center gap-2 bg-lime-300 rounded-3xl border border-lime-500 px-6 py-3 my-4 mx-auto"
+          >
+            <h1 class="font-bold">View Details</h1>
+            <div class="bg-lime-500 rounded-full">
+              <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
+            </div>
+          </button>
         </div>
       </section>
     </header>
