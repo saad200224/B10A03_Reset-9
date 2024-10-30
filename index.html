@@ -38,10 +38,10 @@
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header class="py-12 bg-gradient-to-b from-slate-100 to-white">
-      <nav class="max-w-7xl mx-auto flex items-center justify-evenly">
+    <header class="py-12 px-5   bg-gradient-to-b from-slate-100 to-white">
+      <nav class="lg:max-w-7xl mx-auto flex items-center justify-between">
         <!-- logo -->
-        <div class="flex items-center justify-center gap-2">
+        <div class="flex items-center justify-center gap-2 mx-5">
           <div class="bg-lime-500 rounded-full">
             <i class="fa-solid fa-arrow-right p-2 -rotate-45"></i>
           </div>
@@ -51,7 +51,10 @@
         </div>
 
         <!-- menu -->
-        <div>
+         <div class="bg-white rounded-full p-2 lg:hidden">
+          <i class="fa-solid fa-bars text-slate-500"></i>
+         </div>
+        <div class="hidden lg:flex">
           <ul class="flex gap-7">
             <li><a href="">Home</a></li>
             <li><a href="">Services</a></li>
@@ -62,7 +65,7 @@
         </div>
 
         <!-- right side btn -->
-        <div class="flex items-center justify-center gap-2">
+        <div class="hidden lg:flex items-center justify-center gap-2">
           <div class="bg-white p-2 rounded-full text-lg">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
@@ -84,22 +87,22 @@
 
       <!-- hero section -->
       <section
-        class="flex flex-col items-center justify-center mx-auto lg:w-5/6"
+        class="max-w-7xl flex flex-col items-center justify-center mx-auto lg:w-5/6"
       >
         <div class="my-4">
-          <img class="w-3/4 mx-auto" src="./images/banner.png" alt="" />
+          <img class="w-full lg:w-3/4 mx-auto" src="./images/banner.png" alt="" />
         </div>
         <div class="text-center">
-          <h1 class="text-6xl font-extrabold my-6">
+          <h1 class="text-4xl lg:text-6xl font-extrabold my-6">
             A barn house of this design has a striking appearance
           </h1>
-          <p class="w-5/6 mx-auto">
+          <p class="px-8 w-full lg:w-5/6 mx-auto">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
           <button
-            class="flex items-center justify-center gap-2 bg-lime-300 rounded-3xl border border-lime-500 px-6 py-3 my-4 mx-auto"
+            class="w-full lg:w-auto flex items-center justify-center gap-2 bg-lime-300 rounded-3xl border border-lime-500 lg:px-6 py-3 my-4 mx-auto"
           >
             <h1 class="font-bold">View Details</h1>
             <div class="bg-lime-500 rounded-full">
