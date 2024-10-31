@@ -38,7 +38,7 @@
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header class="py-12 px-5   bg-gradient-to-b from-slate-100 to-white">
+    <header class="py-12 px-5 bg-gradient-to-b from-slate-100 to-white">
       <nav class="lg:max-w-7xl mx-auto flex items-center justify-between">
         <!-- logo -->
         <div class="flex items-center justify-center gap-2 mx-5">
@@ -51,9 +51,9 @@
         </div>
 
         <!-- menu -->
-         <div class="bg-white rounded-full p-2 lg:hidden">
+        <div class="bg-white rounded-full p-2 lg:hidden">
           <i class="fa-solid fa-bars text-slate-500"></i>
-         </div>
+        </div>
         <div class="hidden lg:flex">
           <ul class="flex gap-7">
             <li><a href="">Home</a></li>
@@ -90,7 +90,11 @@
         class="max-w-7xl flex flex-col items-center justify-center mx-auto lg:w-5/6"
       >
         <div class="my-4">
-          <img class="w-full lg:w-3/4 mx-auto" src="./images/banner.png" alt="" />
+          <img
+            class="w-full lg:w-3/4 mx-auto"
+            src="./images/banner.png"
+            alt=""
+          />
         </div>
         <div class="text-center">
           <h1 class="text-4xl lg:text-6xl font-extrabold my-6">
@@ -112,5 +116,63 @@
         </div>
       </section>
     </header>
+
+    <!-- about us section -->
+
+    <section class="bg-slate-100 py-12">
+      <div class="max-w-7xl mx-auto">
+        <div class="">
+          <img class="hidden lg:block" src="./images/Vector.png" alt="" />
+        </div>
+  
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-7 px-8">
+                    
+          <div class="flex flex-col">
+
+            <div class="rounded-3xl bg-white px-4 py-2 flex gap-2 items-center justify-center mb-4 w-2/4 lg:w-3/12 mx-auto">
+              <i class="fa-solid fa-arrow-right"></i>
+              <h1 class="font-bold">About Us</h1>
+            </div>
+  
+            <div class="text-center lg:text-left">
+              <h1 class="text-4xl font-extrabold mb-6">We design thoughtful, <br> liveable spaces</h1>
+              <p class="mb-6">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+  
+            <div class="flex items-center gap-4 p-6 rounded-2xl bg-white mb-6">
+              <img src="./images/commercial.png" alt="" />
+              <div class="w-full lg:w-3/5">
+                <h1 class="font-bold">Commercial</h1>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+  
+            <div class="flex items-center gap-4 p-6 rounded-2xl bg-white">
+              <img src="./images/residential.png" alt="" />
+              <div class="w-full lg:w-3/5">
+                <h1 class="font-bold">Residential</h1>
+                <p>
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div>
+            <img src="./images/Rectangle.png" alt="" />
+          </div>
+  
+        </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
